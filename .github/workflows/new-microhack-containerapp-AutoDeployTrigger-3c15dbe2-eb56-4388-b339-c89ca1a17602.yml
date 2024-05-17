@@ -1,4 +1,4 @@
-name: Trigger auto deployment for new-microhack-containerapp
+name: new-microhack-containerapp Deploy
 
 # When this action will be executed
 on:
