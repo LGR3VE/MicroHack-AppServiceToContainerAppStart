@@ -27,7 +27,7 @@ jobs:
               uses: docker/build-push-action@v3
               with:
                   push: true
-                  tags: microhack.azurecr.io/${{ secrets.ACR_USERNAME }}/dockerappskiplevel:${{ github.sha }}
+                  tags: microhack.azurecr.io/${{ secrets.ACR_USERNAME }}/dockerappskiplevel:v1
                   file: ./Dockerfile
 
     deploy:
